@@ -51,7 +51,7 @@ import org.openapitools.client.JSON;
 /**
  * OncoTree Detailed Cancer Type. See https://oncotree.mskcc.org/?version&#x3D;oncotree_2019_12_01
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-27T16:00:42.192711-05:00[America/New_York]", comments = "Generator version: 7.11.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-27T16:13:52.565252-05:00[America/New_York]", comments = "Generator version: 7.11.0")
 public class TumorType {
   public static final String SERIALIZED_NAME_CHILDREN = "children";
   @SerializedName(SERIALIZED_NAME_CHILDREN)

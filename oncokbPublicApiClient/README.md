@@ -1,8 +1,8 @@
-# openapi-java-client
+# oncokbPublicApiClient
 
 OncoKB APIs
 - API version: v1.5.0
-  - Build date: 2025-02-27T16:00:42.192711-05:00[America/New_York]
+  - Build date: 2025-02-27T16:13:52.565252-05:00[America/New_York]
   - Generator version: 7.11.0
 
 OncoKB, a comprehensive and curated precision oncology knowledge base, offers oncologists detailed, evidence-based information about individual somatic mutations and structural alterations present in patient tumors with the goal of supporting optimal treatment decisions.
@@ -41,7 +41,7 @@ Add this dependency to your project's POM:
 ```xml
 <dependency>
   <groupId>org.openapitools</groupId>
-  <artifactId>openapi-java-client</artifactId>
+  <artifactId>oncokbPublicApiClient</artifactId>
   <version>v1.5.0</version>
   <scope>compile</scope>
 </dependency>
@@ -53,12 +53,12 @@ Add this dependency to your project's build file:
 
 ```groovy
   repositories {
-    mavenCentral()     // Needed if the 'openapi-java-client' jar has been published to maven central.
-    mavenLocal()       // Needed if the 'openapi-java-client' jar has been published to the local maven repo.
+    mavenCentral()     // Needed if the 'oncokbPublicApiClient' jar has been published to maven central.
+    mavenLocal()       // Needed if the 'oncokbPublicApiClient' jar has been published to the local maven repo.
   }
 
   dependencies {
-     implementation "org.openapitools:openapi-java-client:v1.5.0"
+     implementation "org.openapitools:oncokbPublicApiClient:v1.5.0"
   }
 ```
 
@@ -72,7 +72,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/openapi-java-client-v1.5.0.jar`
+* `target/oncokbPublicApiClient-v1.5.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started

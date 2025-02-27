@@ -48,7 +48,7 @@ import org.openapitools.client.JSON;
 /**
  * Enriched user annotation query
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-27T16:00:42.192711-05:00[America/New_York]", comments = "Generator version: 7.11.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-02-27T16:13:52.565252-05:00[America/New_York]", comments = "Generator version: 7.11.0")
 public class Query {
   public static final String SERIALIZED_NAME_ALTERATION = "alteration";
   @SerializedName(SERIALIZED_NAME_ALTERATION)
